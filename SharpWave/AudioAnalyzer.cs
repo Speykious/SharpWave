@@ -2,6 +2,8 @@
 // This file is part of SharpWave.
 // SharpWave is licensed under the LGPL v3 License. See LICENSE.LESSER for details.
 
+using SharpWave.Enums;
+
 namespace SharpWave;
 
 /// <summary>

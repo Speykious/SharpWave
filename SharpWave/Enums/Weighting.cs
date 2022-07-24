@@ -2,14 +2,14 @@
 // This file is part of SharpWave.
 // SharpWave is licensed under the LGPL v3 License. See LICENSE.LESSER for details.
 
-using System;
+namespace SharpWave.Enums;
 
-namespace SharpWave;
-
-[Flags]
-public enum BandpowerAttributes
+public enum Weighting
 {
-    Average,
-    RMS,
-    Sum,
+    A,
+    B,
+    C,
+    D,
+    /// M (ITU-R 468)
+    M,
 }

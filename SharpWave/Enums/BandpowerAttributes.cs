@@ -2,13 +2,14 @@
 // This file is part of SharpWave.
 // SharpWave is licensed under the LGPL v3 License. See LICENSE.LESSER for details.
 
-namespace SharpWave;
+using System;
 
-public enum SampleProvider
+namespace SharpWave.Enums;
+
+[Flags]
+public enum BandpowerAttributes
 {
-    Waveform,
-    Autocorrelation,
-    Spectrum1,
-    BrownPuckette,
-    Spectrum2,
+    Average,
+    RMS,
+    Sum,
 }
