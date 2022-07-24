@@ -10,11 +10,11 @@ namespace SharpWave;
 public enum IndexClipMode
 {
     /// Clip
-    clip,
+    Clip,
     /// Periodic (circular)
-    periodic,
+    Periodic,
     /// Mirror
-    mirror,
+    Mirror,
     /// Zero
-    zero,
+    Zero,
 }
