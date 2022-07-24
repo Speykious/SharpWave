@@ -97,7 +97,7 @@ public class AudioSpectrum
     /// Shape of the smoothing filter.
     /// TODO: replace string type with some enum type
     /// </summary>
-    public string? SmoothingFilterShape { get; set; }
+    public WindowFunction? SmoothingFilterShape { get; set; }
 
     /// <summary>
     /// The parameter of the smoothing filter
@@ -108,6 +108,6 @@ public class AudioSpectrum
     /// Index clipping mode for smoothness
     /// </summary>
     /// <value></value>
-    public string? SmoothingIndexClipMode { get; set; }
+    public IndexClipMode? SmoothingIndexClipMode { get; set; }
     #endregion
 }
